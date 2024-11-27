@@ -377,7 +377,7 @@ body{
   }
   
   .slider .list .item .content .title{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     line-height: 1.3em;
   }
@@ -424,7 +424,7 @@ body{
   .thumbnail{
       position: absolute;
       bottom: 50px;
-      left: 70%;
+      left: 60%;
       width: max-content;
       z-index: 100;
       display: flex;
