@@ -1,5 +1,8 @@
 
 
+
+
+
 let nextBtn = document.querySelector('.next')
 let prevBtn = document.querySelector('.prev')
 

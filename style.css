@@ -9,6 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 .backvid{
     width: 100vw;
     height: 100vh;
@@ -18,7 +19,6 @@ html{
     align-items: center;
     justify-content: center;
     padding-left: -8%;
-
 }
 nav{
     width: 100%;
@@ -238,7 +238,7 @@ textarea:focus{
     outline: none;
     box-shadow: 0 0 8px rgba(128, 128, 128, 0.397);
 }
-button{
+.contact-form button{
     display: inline-block;
     padding: 12px 24px;
     background-color: black;
@@ -247,7 +247,7 @@ button{
     cursor: pointer;
     transform: 0.5s;
 }
-button:hover{
+.contact-form button:hover{
     background-color: rgba(0, 0, 0, 0.637);
     border-radius: 10px;
 }
@@ -424,11 +424,11 @@ body{
   .thumbnail{
       position: absolute;
       bottom: 50px;
-      left: 50%;
+      left: 70%;
       width: max-content;
       z-index: 100;
       display: flex;
-      gap: 20px;
+      gap: 15px;
   }
   
   .thumbnail .item{
