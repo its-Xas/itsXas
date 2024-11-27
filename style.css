@@ -304,9 +304,13 @@ body{
   .description{
       font-size: 25px;
   }
+  .title{
+    font-size: 25px;
+}
   .type {
       text-shadow: 0px 0px 2px white;
     }
+  
   header{
       width: 1140px;
       max-width: 80%;
@@ -369,9 +373,13 @@ body{
       text-shadow: 0 5px 10px #0004;
   }
   
-  .slider .list .item .content .title,
+  .slider .list .item .content .title{
+       font-size: 3em;
+      font-weight: bold;
+      line-height: 1.3em;
+  }
   .slider .list .item .content .type{
-      font-size: 5em;
+      font-size: 4em;
       font-weight: bold;
       line-height: 1.3em;
   }
