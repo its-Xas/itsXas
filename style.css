@@ -71,6 +71,10 @@ nav ul li a{
     font-weight: 600;
     transition: 0.5s;
 }
+.intro p{
+  font-size: 12px;
+  padding-top: 5%;
+}
 .intro h1:hover{
     -webkit-text-stroke: 0.3px white;
     color: transparent;
@@ -344,7 +348,6 @@ body{
   
   .slider{
       height: 100vh;
-      margin-top: -50px;
       width: 100vw;
       overflow: hidden;
       position: relative;
@@ -374,12 +377,12 @@ body{
   }
   
   .slider .list .item .content .title{
-       font-size: 3em;
-      font-weight: bold;
-      line-height: 1.3em;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.3em;
   }
   .slider .list .item .content .type{
-      font-size: 4em;
+      font-size: 5em;
       font-weight: bold;
       line-height: 1.3em;
   }
